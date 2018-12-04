@@ -5,6 +5,11 @@ const { GraphQLServer } = require('graphql-yoga');
 const dinnerOptions = ['🍕', '🌭', '🍔', '🥗', '🍣'];
 
 const typeDefs = `
+  type Test {
+    name: String!
+    id: Int 
+  }
+  
   type Query {
     whatsForDinner: String!
   }
