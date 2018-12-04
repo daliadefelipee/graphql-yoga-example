@@ -6,7 +6,7 @@ const dinnerOptions = ['🍕', '🌭', '🍔', '🥗', '🍣'];
 
 const typeDefs = `
   type Query {
-    whatsForLunch: String!
+    whatsForLunch: String
   }
 `;
 
