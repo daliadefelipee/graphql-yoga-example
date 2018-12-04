@@ -6,13 +6,13 @@ const dinnerOptions = ['🍕', '🌭', '🍔', '🥗', '🍣'];
 
 const typeDefs = `
   type Query {
-    whatsForLunch: String
+    whatsForDinner: String!
   }
 `;
 
 const resolvers = {
     Query: {
-        whatsForLunch: () => {
+        whatsForDinner: () => {
             const idx = Math.floor(Math.random() * dinnerOptions.length);
             const foodChoice = dinnerOptions[idx];
             return `Tonight we eat ${foodChoice}`;
