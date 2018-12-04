@@ -1,0 +1,10 @@
+# Dependency directories
+node_modules/
+
+#MAC_OS
+.DS_Store
+
+#Webstorm IDE
+.idea/
+
+
