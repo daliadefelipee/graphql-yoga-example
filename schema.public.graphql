@@ -1,4 +1,10 @@
 
+  type Test {
+    name: String
+    id: Int! 
+    age: Int
+  }
+  
   type Query {
     whatsForDinner: String!
   }
