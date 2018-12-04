@@ -6,8 +6,9 @@ const dinnerOptions = ['🍕', '🌭', '🍔', '🥗', '🍣'];
 
 const typeDefs = `
   type Test {
-    name: String!
-    id: Int 
+    name: String
+    id: Int! 
+    age: Int
   }
   
   type Query {
