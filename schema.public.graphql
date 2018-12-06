@@ -6,5 +6,5 @@
   }
 
   type Query {
-    whatsForLunch: String!
+    whatsForDinner: String!
   }
