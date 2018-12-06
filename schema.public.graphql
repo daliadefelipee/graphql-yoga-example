@@ -1,8 +1,7 @@
 
   type Test {
-    name: String
+    name: String!
     id: Int!
-    age: Int
   }
 
   type Query {
