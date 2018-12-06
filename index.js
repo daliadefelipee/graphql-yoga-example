@@ -7,7 +7,7 @@ const dinnerOptions = ['🍕', '🌭', '🍔', '🥗', '🍣'];
 const typeDefs = `
   type Test {
     name: String
-    id: Int! 
+    id: Int
     age: Int
   }
   
